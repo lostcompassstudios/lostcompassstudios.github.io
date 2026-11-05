@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Terms of Service for [App Name].">
+  <title>Terms of Service | Gravity Flip</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #667085;
+      --accent: #536dfe;
+      --line: #e7eaf0;
+      --surface: #ffffff;
+      --page: #f5f7fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font: 16px/1.7 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    header {
+      padding: 54px 20px 46px;
+      color: white;
+      background: linear-gradient(135deg, #172554, #4657d9 65%, #7c6cf2);
+    }
+    .header-inner, main, footer { width: min(900px, calc(100% - 40px)); margin: auto; }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: #dce3ff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(34px, 6vw, 52px); line-height: 1.1; }
+    .subtitle { max-width: 620px; margin: 16px 0 0; color: #e8ebff; }
+    main { padding: 34px 0 60px; }
+    .updated {
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .content {
+      padding: clamp(22px, 5vw, 42px);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: 0 12px 35px rgba(25, 39, 75, .05);
+    }
+    h2 { margin: 30px 0 8px; font-size: 20px; line-height: 1.35; }
+    h2:first-child { margin-top: 0; }
+    p { margin: 8px 0 14px; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    .notice {
+      margin-top: 26px;
+      padding: 15px 17px;
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      background: #f1f3ff;
+      color: #34405f;
+      font-size: 14px;
+    }
+    footer { padding: 0 0 32px; color: var(--muted); font-size: 13px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <p class="eyebrow">Legal information</p>
+      <h1>Terms of Service</h1>
+      <p class="subtitle">Please read these terms carefully before using Gravity Flip.</p>
+    </div>
+  </header>
+
+  <main>
+    <p class="updated"><strong>Effective date:</strong> 05/11/2026</p>
+    <article class="content">
+      <p>These Terms of Service govern your access to and use of <strong>Gravity Flip</strong>, provided by <strong>LostCompass Studios</strong>. By downloading, accessing, or using the App, you agree to these Terms. If you do not agree, please do not use the App.</p>
+
+      <h2>1. Use of the App</h2>
+      <p>You may use the App for your personal, lawful purposes. You agree not to misuse the App, interfere with its operation, attempt to access systems or data without authorization, or use it in a way that violates applicable laws.</p>
+
+      <h2>2. Eligibility</h2>
+      <p>You are responsible for ensuring that you are legally permitted to use the App. If you are under the age required to provide consent in your country, you should use the App only with permission from a parent or legal guardian.</p>
+
+      <h2>3. Intellectual Property</h2>
+      <p>The App and its original content, features, artwork, design, and branding are owned by or licensed to LostCompass Studios and are protected by applicable intellectual property laws. You may not copy, modify, distribute, sell, or create derivative works from the App or its content without prior written permission, except where permitted by law.</p>
+
+      <h2>4. Ads and Third-Party Services</h2>
+      <p>The App may display advertisements or use third-party services. Those services may operate under their own terms and privacy policies. We do not control third-party services and encourage you to review their applicable policies.</p>
+
+      <h2>5. Updates and Availability</h2>
+      <p>We may update, change, suspend, or discontinue any part of the App at any time. We do not guarantee that the App will always be available, uninterrupted, or free from errors.</p>
+
+      <h2>6. Disclaimer</h2>
+      <p>The App is provided on an “as is” and “as available” basis, to the extent permitted by applicable law. We make no warranties that the App will meet your requirements or operate without interruption or errors.</p>
+
+      <h2>7. Limitation of Liability</h2>
+      <p>To the maximum extent permitted by applicable law, LostCompass Studios will not be liable for indirect, incidental, special, consequential, or punitive damages, or for loss of data, profits, or goodwill arising from your use of or inability to use the App. Nothing in these Terms excludes liability that cannot legally be excluded.</p>
+
+      <h2>8. Changes to These Terms</h2>
+      <p>We may revise these Terms from time to time. Any updated version will be posted on this page with a revised effective date. Your continued use of the App after the updated Terms are posted means you accept the revised Terms.</p>
+
+      <h2>9. Governing Law</h2>
+      <p>These Terms are governed by the laws applicable in India, without regard to conflict-of-law principles, except where mandatory consumer-protection laws provide otherwise.</p>
+
+      <h2>10. Contact Us</h2>
+      <p>If you have questions about these Terms, contact us at:</p>
+      <p><strong>LostCompass Studios</strong><br>
+      Email: <a href="mailto:your-email@example.com">lostcompasstudios@gmail.com</a></p>
+    </article>
+  </main>
+
+  <footer>© <span id="year"></span> LostCompass Studios. All rights reserved.</footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
